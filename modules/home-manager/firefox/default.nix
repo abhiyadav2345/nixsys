@@ -17,10 +17,10 @@
     # };
 
     profiles = {
-      rohit = {
+      abhishek = {
         id = 0;
         isDefault = true;
-        name = "Rohit Singh";
+        name = "abhishek yadav";
         search = {
           default = "DuckDuckGo";
           force = true;

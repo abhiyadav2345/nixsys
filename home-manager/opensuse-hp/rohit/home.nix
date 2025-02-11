@@ -55,8 +55,8 @@
 
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
-  home.username = "rohit";
-  home.homeDirectory = "/home/rohit";
+  home.username = "abhishek";
+  home.homeDirectory = "/home/abhishek";
 
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
@@ -117,7 +117,7 @@
   #
   # or
   #
-  #  /etc/profiles/per-user/rohit/etc/profile.d/hm-session-vars.sh
+  #  /etc/profiles/per-user/abhishek/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
     # EDITOR = "emacs";
@@ -162,8 +162,8 @@
 
     git = {
       enable = false;
-      userName = "Rohit Singh";
-      userEmail = "RohitSinghEmail@protonmail.com";
+      userName = "abhishek yadav";
+      userEmail = "abhiyadav2345@gmail.com";
     };
     git-credential-oauth.enable = true;
 

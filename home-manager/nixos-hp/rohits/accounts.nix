@@ -3,10 +3,10 @@
   programs.thunderbird = {
     enable = true;
     profiles = {
-      "Rohit Singh" = {
+      "abhishek yadav" = {
         isDefault = true;
       };
-      "rohithack" = {
+      "abhishekhack" = {
         isDefault= false;
       };
     };
@@ -17,10 +17,10 @@
   # };
 
   accounts.email.accounts = {
-    "Rohit Sigh" = {
+    "abhishek yadav" = {
 
-      realName = "Rohit Singh";
-      address = "rohitsingh.mait@gmail.com";
+      realName = "abhishek yadav";
+      address = "abhiyadav2345@gmail.com";
       primary = true;
       flavor = "gmail.com";
 
@@ -41,13 +41,13 @@
 
     };
 
-    "rohithack" = {
+    "abhishekhack" = {
 
 
-      realName = "Rohit Singh";
-      address = "rohithack@outlook.com";
+      realName = "abhishek yadav";
+      address = "abhishekhack@outlook.com";
 
-      userName = "rohithack@outlook.com";
+      userName = "abhishekhack@outlook.com";
 
       imap = {
         host = "imap-mail.outlook.com";
@@ -61,7 +61,7 @@
           enable = true;
         };
       };
-      passwordCommand = "${pkgs.libsecret}/bin/secret-tool lookup password rohithack";
+      passwordCommand = "${pkgs.libsecret}/bin/secret-tool lookup password abhishekhack";
       thunderbird = {
         enable = true;
       };

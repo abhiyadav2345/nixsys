@@ -124,7 +124,7 @@
 
 
         log-level = "warn";
-        log-file = "/home/rohits/.config/picom/picom.log";
+        log-file = "/home/abhishek/.config/picom/picom.log";
       };                                           # Extra options for picom.conf (mostly for pijulius fork)
     };
 }

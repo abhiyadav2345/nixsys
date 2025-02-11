@@ -88,7 +88,7 @@ myKeys =
 
     -- CONTROL + ALT KEYS
     ("C-M1-p", spawn "$HOME/.config/xmonad/picom-toggle.sh"),
-    ("C-M1-w", spawn "feh --randomize --bg-fill /home/rohits/Pictures/wallpapers/*.jpg"),
+    ("C-M1-w", spawn "feh --randomize --bg-fill /home/abhishek/Pictures/wallpapers/*.jpg"),
     -- CONTROL + e KEYSTROKES
     -- , ("C-e e", spawn myEmacs)                 -- start emacs
     ("C-e e", spawn (myEmacs ++ "--eval '(dashboard-refresh-buffer)'")), -- emacs dashboard

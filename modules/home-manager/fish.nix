@@ -4,7 +4,7 @@
   programs.fish = {
     enable = true;
     # interactiveShellInit = "
-    #   cowsay -r -C 'Hello Rohit'
+    #   cowsay -r -C 'Hello abhishek'
     #   ";
 
     shellInit = ''

@@ -23,12 +23,12 @@ myStartupHook = do
   spawnOnce "flameshot &"
   -- spawnOnce "emacs --daemon &" -- emacs daemon for the emacsclient
   -- uncomment to restore last saved wallpaper
-  -- spawnOnce "feh --randomize --bg-fill /home/rohit/Pictures/wallpapers/0051.jpg"
-  -- spawnOnce "feh --randomize --bg-fill /home/rohit/Pictures/wallpapers/0108.jpg"
-  -- spawnOnce "feh --randomize --bg-fill /home/rohit/Pictures/wallpapers/0253.jpg"
-  -- spawnOnce "feh --randomize --bg-fill /home/rohits/Pictures/wallpapers/0258.jpg"
-  -- spawnOnce "feh --randomize --bg-fill /home/rohit/Pictures/wallpapers/0294.jpg"
-  -- spawnOnce "feh --randomize --bg-fill /home/rohit/Pictures/wall.jpg"
+  -- spawnOnce "feh --randomize --bg-fill /home/abhishek/Pictures/wallpapers/0051.jpg"
+  -- spawnOnce "feh --randomize --bg-fill /home/abhishek/Pictures/wallpapers/0108.jpg"
+  -- spawnOnce "feh --randomize --bg-fill /home/abhishek/Pictures/wallpapers/0253.jpg"
+  -- spawnOnce "feh --randomize --bg-fill /home/abhishek/Pictures/wallpapers/0258.jpg"
+  -- spawnOnce "feh --randomize --bg-fill /home/abhishek/Pictures/wallpapers/0294.jpg"
+  -- spawnOnce "feh --randomize --bg-fill /home/abhishek/Pictures/wall.jpg"
   --uncomment to set a random wallpaper on login
   -- spawnOnce "find /usr/share/backgrounds/dtos-backgrounds/ -type f | shuf -n 1 | xargs xwallpaper --stretch"
 

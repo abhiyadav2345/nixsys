@@ -86,7 +86,7 @@
 
                     
       		        -- Weather
-      		            , Run Com "/home/rohit/.config/xmobar/scripts/weather.sh" [] "weather" 20
+      		            , Run Com "/home/abhishek/.config/xmobar/scripts/weather.sh" [] "weather" 20
 
       		            -- Battery 
                           , Run Battery        [ "--template" , "Batt: <acstatus>"

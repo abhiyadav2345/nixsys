@@ -73,8 +73,8 @@
   };
 
   home = {
-    username = "rohits";
-    homeDirectory = "/home/rohits";
+    username = "abhishek";
+    homeDirectory = "/home/abhishek";
 
     # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
     stateVersion = "22.11";
@@ -180,8 +180,8 @@
 
     git = {
       enable = true;
-      userName = "Rohit Singh";
-      userEmail = "RohitSinghEmail@protonmail.com";
+      userName = "abhishek yadav";
+      userEmail = "abhiyadav2345@gmail.com";
     };
 
     micro = {
@@ -266,7 +266,7 @@
       #   General = {
       #     showStartupLaunchMessage = true;
       #     # showDesktopNotification = true;
-      #     savePath = "/home/rohits/Pictures";
+      #     savePath = "/home/abhishek/Pictures";
       #   };
       # };
     };

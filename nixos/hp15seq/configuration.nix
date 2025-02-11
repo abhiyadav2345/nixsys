@@ -73,7 +73,7 @@
     # Deduplicate and optimize nix store
     auto-optimise-store = true;
 
-    trusted-users = ["root" "rohits"];
+    trusted-users = ["root" "abhishek"];
   };
 
   nix.gc = {
@@ -134,7 +134,7 @@
         efiSupport = true;
 
         theme = pkgs.sleek-grub-theme.override {
-          withBanner = "Hello Rohit";
+          withBanner = "Hello abhishek";
           withStyle = "dark"; # one of "white" "dark" "orange" "bigSur"
         };
         # splashImage = ../wall/grub.png;
@@ -194,9 +194,9 @@
 
   # TODO: Configure your system-wide user settings (groups, etc), add more users as needed.
   users.users = {
-    rohits = {
+    abhishek = {
       isNormalUser = true;
-      description = "Rohit Singh";
+      description = "abhishek yadav";
       # openssh.authorizedKeys.keys = [
       #   # TODO: Add your SSH public key(s) here, if you plan on using SSH to connect
       # ];
@@ -246,7 +246,7 @@
     displayManager.autoLogin = {
       # Enable automatic login for the user.
       enable = true;
-      user = "rohits";
+      user = "abhishek";
     };
 
     xserver = {
@@ -272,7 +272,7 @@
         # Enable the GNOME Desktop Environment.
         gdm = {
           enable = true;
-          banner = "Welocome to Rohit's NixOS system";
+          banner = "Welocome to abhishek's NixOS system";
         };
         defaultSession = "gnome";
       };
@@ -350,7 +350,7 @@
 
       daemon = {
         settings = {
-          data-root = "/home/rohits/mydata/docker-data/docker-root";
+          data-root = "/home/abhishek/mydata/docker-data/docker-root";
         };
       };
 
@@ -358,7 +358,7 @@
         enable = false;
         setSocketVariable = true;
         daemon.settings = {
-          data-root = "/home/rohits/mydata/docker-data/docker-root";
+          data-root = "/home/abhishek/mydata/docker-data/docker-root";
         };
       };
 
@@ -405,7 +405,7 @@
   environment.sessionVariables = {
     # Hints electron apps to use wayland
     NIXOS_OZONE_WL = "1";
-    NIXOS_CONFIG_DIR = "/home/rohits/nixsys";
+    NIXOS_CONFIG_DIR = "/home/abhishek/nixsys";
   };
 
   fonts = {
